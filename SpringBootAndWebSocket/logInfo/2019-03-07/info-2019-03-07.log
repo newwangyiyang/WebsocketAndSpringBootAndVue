@@ -1,0 +1,835 @@
+09:25:47 [restartedMain] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 11072 (D:\websocket\SpringBootAndWebSocket\target\classes started by Administrator in D:\websocket\SpringBootAndWebSocket)
+09:25:47 [restartedMain] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+09:25:47 [restartedMain] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+09:25:47 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:25:47 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+09:25:49 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+09:25:49 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+09:25:49 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+09:25:49 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:25:49 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+09:25:49 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+09:25:50 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$3406b7ef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:25:50 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'customRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:25:50 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:25:50 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:25:50 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d21e3dde] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:25:51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+09:25:51 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+09:25:51 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:25:51 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+09:25:51 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+09:25:51 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+09:25:51 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09:25:51 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09:25:52 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+09:25:52 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:25:52 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5007 ms
+09:25:52 [restartedMain] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+09:25:54 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:25:57 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+09:25:57 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+09:25:57 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:25:57 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+09:25:57 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+09:25:57 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+09:25:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+09:25:57 [restartedMain] INFO  cn.yiyang.WYYApplication - Started WYYApplication in 10.636 seconds (JVM running for 13.777)
+09:25:57 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:25:57
+09:26:02 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:26:02
+09:26:07 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:26:07
+09:26:12 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:26:12
+09:26:17 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:26:17
+09:26:22 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:26:22
+09:26:26 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:26:26 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:26:26 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 46 ms
+09:26:26 [http-nio-8082-exec-1] INFO  c.y.websocket.service.SocketServer - 客户端:【321】连接成功
+09:26:26 [http-nio-8082-exec-1] INFO  c.y.websocket.service.SocketServer - 客户端:【321】发送信息:{"test":"12345"}
+09:26:27 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:26:27
+09:26:32 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:26:32
+09:26:37 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:26:37
+09:26:42 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:26:42
+09:26:47 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:26:47
+09:26:52 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:26:52
+09:26:57 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:26:57
+09:27:02 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:27:02
+09:27:07 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:27:07
+09:27:12 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:27:12
+09:27:17 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:27:17
+09:27:22 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:27:22
+09:27:27 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:27:27
+09:27:32 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:27:32
+09:27:37 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:27:37
+09:27:42 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:27:42
+09:27:47 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:27:47
+09:27:52 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:27:52
+09:27:57 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:27:57
+09:28:02 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:28:02
+09:28:07 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:28:07
+09:28:12 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:28:12
+09:28:17 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:28:17
+09:28:22 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:28:22
+09:28:27 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:28:27
+09:28:32 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:28:32
+09:28:37 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:28:37
+09:28:42 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:28:42
+09:28:47 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:28:47
+09:28:52 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:28:52
+09:28:57 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:28:57
+09:29:02 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:29:02
+09:29:07 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:29:07
+09:29:12 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:29:12
+09:29:17 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:29:17
+09:29:22 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:29:22
+09:29:27 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:29:27
+09:29:32 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:29:32
+09:29:37 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:29:37
+09:29:42 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:29:42
+09:29:47 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:29:47
+09:29:52 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:29:52
+09:29:57 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:29:57
+09:30:02 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:30:02
+09:30:07 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:30:07
+09:30:12 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:30:12
+09:30:17 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:30:17
+09:30:22 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:30:22
+09:30:27 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:30:27
+09:30:32 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:30:32
+09:30:37 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:30:37
+09:30:42 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:30:42
+09:30:46 [restartedMain] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 8620 (D:\websocket\SpringBootAndWebSocket\target\classes started by Administrator in D:\websocket\SpringBootAndWebSocket)
+09:30:46 [restartedMain] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+09:30:46 [restartedMain] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+09:30:46 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:30:46 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+09:30:46 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+09:30:46 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+09:30:46 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+09:30:46 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:30:46 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+09:30:46 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+09:30:47 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$20cda804] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:30:47 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'customRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:30:47 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:30:47 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:30:47 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bee52df3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:30:47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+09:30:47 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+09:30:47 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:30:47 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+09:30:47 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+09:30:47 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+09:30:47 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09:30:47 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09:30:48 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+09:30:48 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:30:48 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2870 ms
+09:30:49 [restartedMain] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+09:30:49 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:30:50 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+09:30:50 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+09:30:50 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:30:50 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+09:30:51 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+09:30:51 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+09:30:51 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+09:30:51 [restartedMain] INFO  cn.yiyang.WYYApplication - Started WYYApplication in 5.308 seconds (JVM running for 5.972)
+09:30:51 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:30:51
+09:30:56 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:30:56
+09:31:01 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:31:01
+09:31:01 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:31:01 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:31:01 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 18 ms
+09:31:01 [http-nio-8082-exec-1] INFO  c.y.websocket.service.SocketServer - 客户端:【321】连接成功
+09:31:01 [http-nio-8082-exec-1] INFO  c.y.websocket.service.SocketServer - 客户端:【321】发送信息:{"test":"12345"}
+09:31:06 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:31:06
+09:31:11 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:31:11
+09:31:16 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:31:16
+09:31:21 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:31:21
+09:31:26 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:31:26
+09:31:31 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:31:31
+09:31:35 [restartedMain] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 8856 (D:\websocket\SpringBootAndWebSocket\target\classes started by Administrator in D:\websocket\SpringBootAndWebSocket)
+09:31:35 [restartedMain] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+09:31:35 [restartedMain] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+09:31:35 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:31:35 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+09:31:36 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+09:31:36 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+09:31:36 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+09:31:36 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:31:36 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+09:31:36 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+09:31:36 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$4156ecc2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:31:36 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'customRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:31:37 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:31:37 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:31:37 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$df6e72b1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:31:37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+09:31:37 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+09:31:37 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:31:37 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+09:31:37 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+09:31:37 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+09:31:37 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09:31:37 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09:31:38 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+09:31:38 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:31:38 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2945 ms
+09:31:38 [restartedMain] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+09:31:39 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:31:40 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+09:31:40 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+09:31:40 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:31:40 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+09:31:40 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+09:31:40 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+09:31:40 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+09:31:40 [restartedMain] INFO  cn.yiyang.WYYApplication - Started WYYApplication in 5.348 seconds (JVM running for 6.042)
+09:31:40 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:31:40
+09:31:45 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:31:45
+09:31:46 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:31:46 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:31:46 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+09:31:46 [http-nio-8082-exec-1] INFO  c.y.websocket.service.SocketServer - 客户端:【321】连接成功
+09:31:46 [http-nio-8082-exec-1] INFO  c.y.websocket.service.SocketServer - 客户端:【321】发送信息:{"test":"12345"}
+09:31:50 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:31:50
+09:31:55 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:31:55
+09:32:00 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:32:00
+09:32:05 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:32:05
+09:32:10 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:32:10
+09:32:15 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:32:15
+09:32:20 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:32:20
+09:32:25 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:32:25
+09:32:30 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:32:30
+09:32:50 [restartedMain] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 13336 (D:\websocket\SpringBootAndWebSocket\target\classes started by Administrator in D:\websocket\SpringBootAndWebSocket)
+09:32:50 [restartedMain] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+09:32:50 [restartedMain] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+09:32:50 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:32:50 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+09:32:50 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+09:32:50 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+09:32:50 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+09:32:50 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:32:50 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+09:32:50 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+09:32:51 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$dcf09db3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:32:51 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'customRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:32:51 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:32:51 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:32:51 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7b0823a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:32:52 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+09:32:52 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+09:32:52 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:32:52 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+09:32:52 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+09:32:52 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+09:32:52 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09:32:52 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09:32:53 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+09:32:53 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:32:53 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2937 ms
+09:32:53 [restartedMain] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+09:32:54 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:32:54 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+09:32:55 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+09:32:55 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:32:55 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+09:32:55 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+09:32:55 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+09:32:55 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+09:32:55 [restartedMain] INFO  cn.yiyang.WYYApplication - Started WYYApplication in 5.415 seconds (JVM running for 6.09)
+09:32:55 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:32:55
+09:33:00 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:33:00
+09:33:01 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:33:01 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:33:01 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+09:33:01 [http-nio-8082-exec-1] INFO  c.y.websocket.service.SocketServer - 客户端:【321】连接成功
+09:33:01 [http-nio-8082-exec-1] INFO  c.y.websocket.service.SocketServer - 客户端:【321】发送信息:{"test":"12345"}
+09:33:05 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:33:05
+09:33:10 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:33:10
+09:33:15 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:33:15
+09:33:20 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:33:20
+09:33:25 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:33:25
+09:33:30 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:33:30
+09:33:35 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:33:35
+09:33:40 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:33:40
+09:33:45 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:33:45
+09:33:50 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:33:50
+09:33:55 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:33:55
+09:34:02 [restartedMain] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 15220 (D:\websocket\SpringBootAndWebSocket\target\classes started by Administrator in D:\websocket\SpringBootAndWebSocket)
+09:34:02 [restartedMain] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+09:34:02 [restartedMain] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+09:34:02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:34:02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+09:34:03 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+09:34:03 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+09:34:03 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+09:34:03 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:34:03 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+09:34:03 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+09:34:03 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$dd44d9f7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:34:03 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'customRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:34:04 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:34:04 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:34:04 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7b5c5fe6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:34:04 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+09:34:04 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+09:34:04 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:34:04 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+09:34:04 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+09:34:04 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+09:34:04 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09:34:04 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09:34:05 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+09:34:05 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:34:05 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2885 ms
+09:34:05 [restartedMain] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+09:34:06 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:34:07 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+09:34:07 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+09:34:07 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:34:07 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+09:34:07 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+09:34:07 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+09:34:07 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+09:34:07 [restartedMain] INFO  cn.yiyang.WYYApplication - Started WYYApplication in 5.318 seconds (JVM running for 5.995)
+09:34:07 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:34:07
+09:34:12 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:34:12
+09:34:17 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:34:17
+09:34:22 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:34:22
+09:34:27 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:34:27
+09:34:32 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:34:32
+09:34:37 [scheduling-1] INFO  c.y.websocket.service.SocketServer - 群发消息中，发送当前时间: 2019-03-07 09:34:37
+09:41:53 [restartedMain] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 12424 (D:\websocket\SpringBootAndWebSocket\target\classes started by Administrator in D:\websocket\SpringBootAndWebSocket)
+09:41:53 [restartedMain] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+09:41:53 [restartedMain] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+09:41:53 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:41:53 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+09:41:54 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+09:41:54 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+09:41:54 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+09:41:54 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:41:54 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+09:41:54 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+09:41:54 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$1c5aaea3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:41:54 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'customRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:41:55 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:41:55 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:41:55 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba723492] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:41:55 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+09:41:55 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+09:41:55 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:41:55 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+09:41:55 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+09:41:55 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+09:41:55 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09:41:55 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09:41:56 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+09:41:56 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:41:56 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3092 ms
+09:41:56 [restartedMain] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+09:41:57 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:41:58 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+09:41:58 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+09:41:58 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:41:58 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+09:41:58 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:41:58 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+09:41:58 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+09:41:58 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+09:41:58 [restartedMain] INFO  cn.yiyang.WYYApplication - Started WYYApplication in 5.506 seconds (JVM running for 6.193)
+09:42:03 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:42:03 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:42:03 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 18 ms
+09:42:03 [http-nio-8082-exec-2] INFO  c.y.s.w.service.SocketService - 客户端:【321】连接成功
+09:42:03 [http-nio-8082-exec-2] INFO  c.y.s.w.service.SocketService - 客户端:【321】发送信息:{"test":"12345"}
+09:42:03 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:42:08 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:42:13 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:42:18 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:42:23 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:42:26 [http-nio-8082-exec-1] INFO  c.y.s.w.service.SocketService - 客户端:【321】断开连接
+09:42:27 [http-nio-8082-exec-3] INFO  c.y.s.w.service.SocketService - 客户端:【321】连接成功
+09:42:27 [http-nio-8082-exec-5] INFO  c.y.s.w.service.SocketService - 客户端:【321】发送信息:{"test":"12345"}
+09:42:28 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:42:33 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:42:38 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:42:43 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:42:48 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:42:53 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:42:58 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:43:03 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:43:08 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:43:13 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:43:18 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:43:23 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:43:28 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:43:33 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:43:38 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:43:43 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:43:47 [Thread-14] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+09:43:48 [Thread-14] INFO  c.y.s.w.service.SocketService - 客户端:【321】断开连接
+09:43:48 [restartedMain] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 12424 (D:\websocket\SpringBootAndWebSocket\target\classes started by Administrator in D:\websocket\SpringBootAndWebSocket)
+09:43:48 [restartedMain] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+09:43:48 [restartedMain] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+09:43:48 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+09:43:48 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+09:43:48 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+09:43:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:43:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+09:43:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+09:43:48 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$1c5aaea3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:43:48 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'customRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:43:48 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:43:48 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:43:48 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba723492] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:43:48 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+09:43:48 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+09:43:48 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:43:48 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+09:43:48 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+09:43:48 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+09:43:48 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09:43:48 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09:43:48 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+09:43:48 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:43:48 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 674 ms
+09:43:48 [restartedMain] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+09:43:49 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webSocketController' defined in file [D:\websocket\SpringBootAndWebSocket\target\classes\cn\yiyang\system\websocket\controller\WebSocketController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [cn.yiyang.system.websocket.controller.WebSocketController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2abebcd4]
+09:43:49 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+09:43:49 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+09:44:07 [restartedMain] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 12424 (D:\websocket\SpringBootAndWebSocket\target\classes started by Administrator in D:\websocket\SpringBootAndWebSocket)
+09:44:07 [restartedMain] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+09:44:07 [restartedMain] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+09:44:07 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+09:44:07 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+09:44:07 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+09:44:07 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:44:07 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+09:44:07 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+09:44:07 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$1c5aaea3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:44:07 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'customRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:44:07 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:44:07 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:44:07 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba723492] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:44:07 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+09:44:07 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+09:44:07 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:44:07 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+09:44:07 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+09:44:07 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+09:44:07 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09:44:07 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09:44:07 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+09:44:07 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:44:07 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 611 ms
+09:44:07 [restartedMain] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+09:44:08 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:44:08 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+09:44:08 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+09:44:08 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:44:08 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+09:44:08 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:44:08 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+09:44:08 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+09:44:08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+09:44:08 [restartedMain] INFO  cn.yiyang.WYYApplication - Started WYYApplication in 1.871 seconds (JVM running for 136.166)
+09:44:08 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+09:44:11 [Thread-27] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+09:44:11 [restartedMain] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 12424 (D:\websocket\SpringBootAndWebSocket\target\classes started by Administrator in D:\websocket\SpringBootAndWebSocket)
+09:44:11 [restartedMain] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+09:44:11 [restartedMain] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+09:44:11 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+09:44:11 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+09:44:11 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+09:44:11 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:44:11 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+09:44:11 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+09:44:11 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$1c5aaea3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:44:11 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'customRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:44:11 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:44:11 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:44:11 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba723492] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:44:12 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+09:44:12 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+09:44:12 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:44:12 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+09:44:12 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+09:44:12 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+09:44:12 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09:44:12 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09:44:12 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+09:44:12 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:44:12 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 614 ms
+09:44:12 [restartedMain] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+09:44:12 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:44:13 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+09:44:13 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+09:44:13 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:44:13 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+09:44:13 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:44:13 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+09:44:13 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+09:44:13 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+09:44:13 [restartedMain] INFO  cn.yiyang.WYYApplication - Started WYYApplication in 2.066 seconds (JVM running for 140.898)
+09:44:13 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+09:44:15 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:44:15 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:44:15 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+09:44:15 [http-nio-8082-exec-1] INFO  c.y.s.w.service.SocketService - 客户端:【321】连接成功
+09:44:15 [http-nio-8082-exec-2] INFO  c.y.s.w.service.SocketService - 客户端:【321】发送信息:{"test":"12345"}
+09:44:18 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:44:23 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:44:28 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:44:33 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:44:36 [Thread-36] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+09:44:36 [Thread-36] INFO  c.y.s.w.service.SocketService - 客户端:【321】断开连接
+09:44:36 [restartedMain] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 12424 (D:\websocket\SpringBootAndWebSocket\target\classes started by Administrator in D:\websocket\SpringBootAndWebSocket)
+09:44:36 [restartedMain] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+09:44:36 [restartedMain] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+09:44:37 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+09:44:37 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+09:44:37 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+09:44:37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:44:37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+09:44:37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+09:44:37 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$1c5aaea3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:44:37 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'customRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:44:37 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:44:37 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:44:37 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba723492] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:44:37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+09:44:37 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+09:44:37 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:44:37 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+09:44:37 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+09:44:37 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+09:44:37 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09:44:37 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09:44:37 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+09:44:37 [restartedMain] INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:44:37 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 627 ms
+09:44:37 [restartedMain] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+09:44:37 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webSocketController': Unsatisfied dependency expressed through field 'socketServer'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.yiyang.system.websocket.service.SocketService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+09:44:37 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+09:44:37 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+09:44:46 [restartedMain] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 12424 (D:\websocket\SpringBootAndWebSocket\target\classes started by Administrator in D:\websocket\SpringBootAndWebSocket)
+09:44:46 [restartedMain] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+09:44:46 [restartedMain] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+09:44:46 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+09:44:46 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+09:44:46 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+09:44:46 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:44:46 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+09:44:46 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+09:44:46 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$1c5aaea3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:44:46 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'customRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:44:46 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:44:46 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:44:46 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba723492] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:44:47 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+09:44:47 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+09:44:47 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:44:47 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+09:44:47 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+09:44:47 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+09:44:47 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09:44:47 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09:44:47 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+09:44:47 [restartedMain] INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:44:47 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 699 ms
+09:44:47 [restartedMain] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+09:44:47 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webSocketController' defined in file [D:\websocket\SpringBootAndWebSocket\target\classes\cn\yiyang\system\websocket\controller\WebSocketController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [cn.yiyang.system.websocket.controller.WebSocketController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5f8ccae6]
+09:44:47 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+09:44:47 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+09:44:57 [restartedMain] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 12424 (D:\websocket\SpringBootAndWebSocket\target\classes started by Administrator in D:\websocket\SpringBootAndWebSocket)
+09:44:57 [restartedMain] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+09:44:57 [restartedMain] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+09:44:57 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+09:44:57 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+09:44:57 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+09:44:57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:44:57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+09:44:57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+09:44:57 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$1c5aaea3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:44:57 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'customRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:44:57 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:44:57 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:44:57 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba723492] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:44:57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+09:44:57 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+09:44:57 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:44:57 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+09:44:57 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+09:44:57 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+09:44:57 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09:44:57 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09:44:57 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+09:44:57 [restartedMain] INFO  o.a.c.c.C.[Tomcat-3].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:44:57 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 635 ms
+09:44:57 [restartedMain] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+09:44:58 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:44:58 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+09:44:58 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+09:44:58 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:44:58 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+09:44:58 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+09:44:58 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:44:58 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+09:44:58 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+09:44:58 [restartedMain] INFO  cn.yiyang.WYYApplication - Started WYYApplication in 1.907 seconds (JVM running for 186.172)
+09:44:58 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+09:45:02 [Thread-43] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+09:45:02 [restartedMain] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 12424 (D:\websocket\SpringBootAndWebSocket\target\classes started by Administrator in D:\websocket\SpringBootAndWebSocket)
+09:45:02 [restartedMain] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+09:45:02 [restartedMain] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+09:45:02 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+09:45:02 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+09:45:02 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+09:45:02 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:45:02 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+09:45:02 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+09:45:02 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$1c5aaea3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:45:02 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'customRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:45:02 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:45:02 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:45:02 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba723492] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:45:03 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+09:45:03 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+09:45:03 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:45:03 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+09:45:03 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+09:45:03 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+09:45:03 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09:45:03 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09:45:03 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+09:45:03 [restartedMain] INFO  o.a.c.c.C.[Tomcat-3].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:45:03 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 644 ms
+09:45:03 [restartedMain] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+09:45:03 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:45:04 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+09:45:04 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+09:45:04 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:45:04 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+09:45:04 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:45:04 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+09:45:04 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+09:45:04 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+09:45:04 [restartedMain] INFO  cn.yiyang.WYYApplication - Started WYYApplication in 1.874 seconds (JVM running for 191.653)
+09:45:04 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+09:45:08 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat-3].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:45:08 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:45:08 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+09:45:08 [http-nio-8082-exec-1] INFO  c.y.s.w.service.SocketService - 客户端:【321】连接成功
+09:45:08 [http-nio-8082-exec-2] INFO  c.y.s.w.service.SocketService - 客户端:【321】发送信息:{"test":"12345"}
+09:45:09 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:45:14 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:45:19 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:45:22 [Thread-55] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+09:45:22 [Thread-55] INFO  c.y.s.w.service.SocketService - 客户端:【321】断开连接
+09:45:22 [restartedMain] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 12424 (D:\websocket\SpringBootAndWebSocket\target\classes started by Administrator in D:\websocket\SpringBootAndWebSocket)
+09:45:22 [restartedMain] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+09:45:22 [restartedMain] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+09:45:23 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+09:45:23 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+09:45:23 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+09:45:23 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:45:23 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+09:45:23 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+09:45:23 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$1c5aaea3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:45:23 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'customRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:45:23 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:45:23 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:45:23 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba723492] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:45:23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+09:45:23 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+09:45:23 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:45:23 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+09:45:23 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+09:45:23 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+09:45:23 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09:45:23 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09:45:23 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+09:45:23 [restartedMain] INFO  o.a.c.c.C.[Tomcat-3].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:45:23 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 588 ms
+09:45:23 [restartedMain] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+09:45:24 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:45:24 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+09:45:24 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+09:45:24 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:45:24 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+09:45:24 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:45:24 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+09:45:24 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+09:45:24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+09:45:24 [restartedMain] INFO  cn.yiyang.WYYApplication - Started WYYApplication in 1.724 seconds (JVM running for 211.914)
+09:45:24 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+09:45:29 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:45:34 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:45:39 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:45:43 [Thread-62] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+09:45:43 [restartedMain] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 12424 (D:\websocket\SpringBootAndWebSocket\target\classes started by Administrator in D:\websocket\SpringBootAndWebSocket)
+09:45:43 [restartedMain] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+09:45:43 [restartedMain] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+09:45:43 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+09:45:43 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+09:45:44 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+09:45:44 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:45:44 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+09:45:44 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+09:45:44 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$1c5aaea3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:45:44 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'customRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:45:44 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:45:44 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:45:44 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba723492] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:45:44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+09:45:44 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+09:45:44 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:45:44 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+09:45:44 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+09:45:44 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+09:45:44 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09:45:44 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09:45:44 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+09:45:44 [restartedMain] INFO  o.a.c.c.C.[Tomcat-3].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:45:44 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 612 ms
+09:45:44 [restartedMain] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+09:45:45 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:45:45 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+09:45:45 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+09:45:45 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:45:45 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+09:45:45 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:45:45 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+09:45:45 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+09:45:45 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+09:45:45 [restartedMain] INFO  cn.yiyang.WYYApplication - Started WYYApplication in 2.292 seconds (JVM running for 233.244)
+09:45:45 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+09:45:48 [Thread-68] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+09:45:48 [restartedMain] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 12424 (D:\websocket\SpringBootAndWebSocket\target\classes started by Administrator in D:\websocket\SpringBootAndWebSocket)
+09:45:48 [restartedMain] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+09:45:48 [restartedMain] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+09:45:48 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+09:45:48 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+09:45:48 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+09:45:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:45:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+09:45:48 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+09:45:48 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$1c5aaea3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:45:48 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'customRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:45:48 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:45:48 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:45:48 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba723492] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:45:49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+09:45:49 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+09:45:49 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:45:49 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+09:45:49 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+09:45:49 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+09:45:49 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09:45:49 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09:45:49 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+09:45:49 [restartedMain] INFO  o.a.c.c.C.[Tomcat-3].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:45:49 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 522 ms
+09:45:49 [restartedMain] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+09:45:49 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:45:50 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+09:45:50 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+09:45:50 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:45:50 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+09:45:50 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:45:50 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+09:45:50 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+09:45:50 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+09:45:50 [restartedMain] INFO  cn.yiyang.WYYApplication - Started WYYApplication in 1.744 seconds (JVM running for 237.528)
+09:45:50 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+09:45:55 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:46:00 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:46:05 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:46:10 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:46:15 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:46:20 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:46:21 [Thread-74] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+09:46:21 [restartedMain] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 12424 (D:\websocket\SpringBootAndWebSocket\target\classes started by Administrator in D:\websocket\SpringBootAndWebSocket)
+09:46:21 [restartedMain] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+09:46:21 [restartedMain] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+09:46:22 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+09:46:22 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+09:46:22 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+09:46:22 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:46:22 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+09:46:22 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+09:46:22 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$1c5aaea3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:46:22 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'customRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:46:22 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:46:22 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:46:22 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba723492] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:46:22 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+09:46:22 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+09:46:22 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:46:22 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+09:46:22 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+09:46:22 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+09:46:22 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09:46:22 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09:46:22 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+09:46:22 [restartedMain] INFO  o.a.c.c.C.[Tomcat-3].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:46:22 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 785 ms
+09:46:22 [restartedMain] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+09:46:22 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webSocketController' defined in file [D:\websocket\SpringBootAndWebSocket\target\classes\cn\yiyang\system\websocket\controller\WebSocketController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [cn.yiyang.system.websocket.controller.WebSocketController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@70fe8f40]
+09:46:22 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+09:46:22 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+09:46:25 [restartedMain] INFO  cn.yiyang.WYYApplication - Starting WYYApplication on FW757PBH1J4RION with PID 12424 (D:\websocket\SpringBootAndWebSocket\target\classes started by Administrator in D:\websocket\SpringBootAndWebSocket)
+09:46:25 [restartedMain] DEBUG cn.yiyang.WYYApplication - Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+09:46:25 [restartedMain] INFO  cn.yiyang.WYYApplication - The following profiles are active: dev
+09:46:25 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper*]' package. Please check your configuration.
+09:46:25 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang.*.mapper]' package. Please check your configuration.
+09:46:25 [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.yiyang]' package. Please check your configuration.
+09:46:25 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:46:25 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+09:46:25 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+09:46:25 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [cn.yiyang.system.config.ShiroConfig$$EnhancerBySpringCGLIB$$1c5aaea3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:46:25 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'customRealm' of type [cn.yiyang.system.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:46:25 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:46:25 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:46:25 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba723492] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:46:25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+09:46:25 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+09:46:25 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:46:25 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+09:46:25 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.18]
+09:46:25 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+09:46:25 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09:46:25 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09:46:25 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+09:46:25 [restartedMain] INFO  o.a.c.c.C.[Tomcat-4].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:46:25 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 612 ms
+09:46:25 [restartedMain] INFO  o.s.b.web.servlet.RegistrationBean - Filter xssFilter was not registered (disabled)
+09:46:26 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:46:27 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+09:46:27 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+09:46:27 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:46:27 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+09:46:27 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:46:27 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+09:46:27 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+09:46:27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+09:46:27 [restartedMain] INFO  cn.yiyang.WYYApplication - Started WYYApplication in 2.224 seconds (JVM running for 274.697)
+09:46:27 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+09:46:32 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:46:33 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat-4].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:46:33 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:46:33 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+09:46:33 [http-nio-8082-exec-1] INFO  c.y.s.w.service.SocketService - 客户端:【321】连接成功
+09:46:33 [http-nio-8082-exec-2] INFO  c.y.s.w.service.SocketService - 客户端:【321】发送信息:{"test":"12345"}
+09:46:37 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...
+09:46:42 [scheduling-1] INFO  c.y.s.w.service.SocketService - 发送消息中...

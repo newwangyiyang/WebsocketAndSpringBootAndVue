@@ -1,0 +1,73 @@
+server:
+  #设置端口号
+  port: 8080
+  servlet:
+    session:
+      timeout: 1800s
+
+
+#定义上传文件的路径
+web:
+  upload-path: D:/pic/upload/
+
+spring:
+  jackson:
+      time-zone: GMT+8
+      date-format: yyyy-MM-dd HH:mm:ss
+  #设置运行环境
+  profiles:
+    active: dev
+  #上传文件大小限制
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+  devtools:
+    restart:
+      enabled: true
+  freemarker:
+      template-loader-path: classpath:/template/
+      cache: false
+      charset: UTF-8
+      check-template-location: true
+      content-type: text/html; charset=utf-8
+      expose-request-attributes: true
+      expose-session-attributes: true
+      request-context-attribute: request
+  #指定上传图片静态文件的位置，用于通过url精心访问
+  mvc:
+    throw-exception-if-no-handler-found: true
+#    static-path-pattern: /**
+  resources:
+      add-mappings: false
+#      static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,file:${web.upload-path}
+#      static-locations: file:${web.upload-path}
+#      当设置了add-mappings: false, 这里的static-locations和static-path-pattern无效
+#      设置add-mappings(取消静态文件映射)的目的是检测404接口
+
+#mybatis
+mybatis-plus:
+  mapper-locations: classpath*:mapper/**/*.xml
+  #实体扫描，多个package用逗号或者分号分隔,  XML 中调用的时候不用包含包名
+  type-aliases-package: cn.yiyang.entity
+  global-config:
+    #刷新mapper 调试神器
+    refresh: true
+    db-config:
+      # 开启大写命名，默认不开启
+      capital-mode: false
+      # 是否开启 LIKE 查询，即根据 entity 自动生成的 where 条件中 String 类型字段 是否使用 LIKE，默认不开启
+      column-like: false
+      # 数据库类型,默认值为未知的数据库类型 如果值为OTHER,启动时会根据数据库连接 url 获取数据库类型;如果不是OTHER则不会自动获取数据库类型
+      db-type: mysql
+      # 全局默认主键类型
+      id-type: id_worker
+      # 表名、是否使用下划线命名，默认数据库表使用下划线命名
+      table-underline: true
+      #该策略约定了如何产出注入的sql,涉及insert,update以及wrapper内部的entity属性生成的 where 条件
+      field-strategy: not_null
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+    call-setters-on-nulls: true
+
